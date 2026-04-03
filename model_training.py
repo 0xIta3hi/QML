@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from qiskit_machine_learning.algorithms import VQC
 from qiskit_machine_learning.optimizers import COBYLA
 
-from step2_circuit import build_encoding_circuit, build_ansatz
+from circuit_initialization import build_encoding_circuit, build_ansatz
 
 N_QUBITS    = 4
 REPS        = 2

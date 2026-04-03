@@ -17,7 +17,7 @@ from sklearn.metrics import (
     classification_report, confusion_matrix, ConfusionMatrixDisplay,
     roc_auc_score, roc_curve, f1_score, accuracy_score
 )
-from step2_circuit import build_encoding_circuit, build_ansatz
+from circuit_initialization import build_encoding_circuit, build_ansatz
 
 N_QUBITS = 4
 REPS     = 2
