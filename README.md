@@ -93,16 +93,16 @@ pip install qiskit==1.3.2 qiskit-aer==0.15.1 qiskit-machine-learning==0.8.2 \
 
 ```bash
 # Step 1 — Download NSL-KDD, preprocess, PCA, angle-encode, save splits
-python step1_data.py
+python data_process.py
 
 # Step 2 — Build and visualise the VQC circuit (no training)
-python step2_circuit.py
+python circuit_initialization.py
 
 # Step 3 — Train the VQC classifier (~10–20 min on CPU)
-python step3_train.py
+python model_training.py
 
 # Step 4 — Evaluate VQC vs SVM, generate all figures
-python step4_evaluate.py
+python evaluate_model.py
 ```
 
 All outputs (figures, trained weights) are written to `outputs/`.
